@@ -1,0 +1,71 @@
+
+body{
+    font-family: sans-serif;
+    font-size: 25px;
+    /* line-height: 1.5;
+    padding: 0;
+    margin: 0;*/
+    background-color: grey; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-date-elements{
+    width: 70%;
+    /* height: 300px;
+    min-height: 100px; */
+   display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    
+}
+.date-block input{
+    padding: 25px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    width: 70px;
+    border-radius: 12px;
+    border: 1px solid lightgrey;
+}
+button{
+    background-color: hsl(259, 100%, 65%);
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-self: flex-end;
+}
+.container{
+    display: flex;
+    align-items: center;
+    width: auto;
+    padding: 2em;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 18px;
+    border-bottom-right-radius: 120px;
+}
+.results{
+font-size: 3rem;
+font-weight: 900;
+
+}
+.submit-button{
+    align-self: flex-end;
+}
+.title{
+    font-size:medium;
+    color: #848484;
+}
+#years{
+    color: hsl(259, 100%, 65%);
+}
+#months{
+    color: hsl(259, 100%, 65%)
+}
+#days{
+    color: hsl(259, 100%, 65%);
+}
